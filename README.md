@@ -21,7 +21,7 @@ BOSCore bases on EOSIO, so you can also referer EOS.IO Technical White Paper:
 * [Token Registration and Management Document](IBC/Token_Registration_and_Management.md)
 * [TestNet Beginner's Guide](IBC/BeginnerGuide/README.md)
 * [Wallet Access document](IBC/WalletAccess/README.md)
-* [Exchange Access Document]IBC/ExchangeAccess/README.md)
+* [Exchange Access Document](IBC/ExchangeAccess/README.md)
 
 # 中文版
 
