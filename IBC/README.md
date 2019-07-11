@@ -1,10 +1,29 @@
-IBC User Guide
--------
+
+# IBC  Contents
+
+* [IBC Design Principles](https://github.com/boscore/Documentation/tree/master/IBC/EOSIO_IBC_Priciple_and_Design.md)
+* [Deployment Document](https://github.com/boscore/Documentation/tree/master/IBC/Deployment/README.md)
+* [Token Registration and Management Document](https://github.com/boscore/Documentation/tree/master/IBC/Token_Registration_and_Management.md)
+* [TestNet Beginner's Guide](https://github.com/boscore/Documentation/tree/master/IBC/BeginnerGuide/README.md)
+* [Wallet Access document](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README.md)
+* [Exchange Access Document](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README.md)
+
+# 中文版
+
+* [《IBC设计原理》](https://github.com/boscore/Documentation/tree/master/IBC/EOSIO_IBC_Priciple_and_Design_zh.md)
+* [《部署文档》](https://github.com/boscore/Documentation/tree/master/IBC/Deployment/README_CN.md)
+* [《Token注册及管理文档》](https://github.com/boscore/Documentation/tree/master/IBC/Token_Registration_and_Management.md)
+* [《测试网使用新手指南》](https://github.com/boscore/Documentation/tree/master/IBC/BeginnerGuide/README_CN.md)
+* [《钱包接入文档》](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README_CN.md)
+* [《交易所接入文档》](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README_CN.md)
+
+
+# IBC User Guide
 
 ### 1. Preface
 On the two blockchains between which realized inter-blockchain communication, 
 any token conforming to the `eosio.token specification` can register and use the IBC channel for inter-blockchain transfer
-, please refer to [Token Registration and Management](IBC/Token_Registration_and_Management.md) for more information.
+, please refer to [Token Registration and Management](Token_Registration_and_Management.md) for more information.
 This article describes the IBC user interface and given command line examples.
 
 
@@ -158,3 +177,4 @@ please query the contract with above commands for real-time quota.
 | reverse withdrawal failed fee    | fixed 30.0000 TPT |
 | project name                     | TokenPocket |
 | project official website         | tokenpocket.pro |
+>>>>>>> dc41f14a56df04bf952e9d34ffa357ec45401549
