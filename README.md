@@ -42,7 +42,7 @@ BOSCore bases on EOSIO, so you can also referer EOS.IO Technical White Paper:
 ### BOS Batch-PBFT / LIB Acceleration Solution docs
 
 * [基于PBFT提升EOSIO共识速度的算法](LIB/基于PBFT提升EOSIO共识速度的算法.md)
-* [Algorithm for improving EOSIO consensus speed based on Batch-PBFT](Algorithm_for_improving_EOSIO_consensus_speed_based_on_Batch-PBFT)
+* [Algorithm for improving EOSIO consensus speed based on Batch-PBFT](LIB/Algorithm_for_improving_EOSIO_consensus_speed_based_on_Batch-PBFT)
 * [BOS LIB Acceleration Solution: Batch PBFT](LIB/BOS_Batch_PBFT_I.md)
 * [BOS Batch-PBFT Upgrade Solution](LIB/BOS_Batch_PBFT_II.md)
 
