@@ -6,7 +6,7 @@
 * [Token Registration and Management Document](https://github.com/boscore/Documentation/tree/master/IBC/Token_Registration_and_Management.md)
 * [TestNet Beginner's Guide](https://github.com/boscore/Documentation/tree/master/IBC/BeginnerGuide/README.md)
 * [Wallet Access document](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README.md)
-* [Exchange Access Document](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README.md)
+* [Exchange Access Document](https://github.com/boscore/Documentation/tree/master/IBC/ExchangeAccess/README.md)
 
 # 中文版
 
@@ -15,7 +15,7 @@
 * [《Token注册及管理文档》](https://github.com/boscore/Documentation/tree/master/IBC/Token_Registration_and_Management.md)
 * [《测试网使用新手指南》](https://github.com/boscore/Documentation/tree/master/IBC/BeginnerGuide/README_CN.md)
 * [《钱包接入文档》](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README_CN.md)
-* [《交易所接入文档》](https://github.com/boscore/Documentation/tree/master/IBC/WalletAccess/README_CN.md)
+* [《交易所接入文档》](https://github.com/boscore/Documentation/tree/master/IBC/ExchangetAccess/README_CN.md)
 
 
 # IBC User Guide
