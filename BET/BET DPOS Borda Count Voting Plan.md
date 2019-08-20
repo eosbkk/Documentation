@@ -1,6 +1,6 @@
 ## I. Preface:
 
-Since Daniel Larimer introduced DPoS into EOS, how to better select Block Producers has become the focus of much community debate. In this regard, BOS follows the EOS voting mechanism. That is a one-vote multi-selection (maximum 30 selections) mechanism. Due to the existence of Pareto's law, the voting rights tend to be concentrated in the hands of a few people. As well, a one-vote multi-selection mechanism allows token holders to trade votes, which ultimately leads to the Block Producers being controlled in the hands of a small number of token holders, thereby increasing the imbalance and centralization of the Block Producers, further leading to an increase in the gap between rankings.  
+Since Daniel Larimer introduced DPoS into EOS, how to better select Block Producers has become the focus of much community debate. In this regard, BOS follows EOS voting mechanism. That is, a one-vote multi-selection (maximum 30 voters) mechanism, but due to the existence of Pareto's law, the voting tends to be concentrated in the hands of a few people, also a one-vote multi-selection mechanism allows token holders to trade votes, which can ultimately lead to the Block Producer rankings being controlled, thereby causing an imbalance in the decentralization of the system, and further leading to an increased gap between  the ranks. To this end, in the design of the bet voting system, we try to introduce an improved Borda voting mechanism to alleviate this problem, in order to find a more reasonable means to make a corresponding contribution in ensuring system security and fairness.
 
 To this end, in the design of the BET voting system, we aim to introduce an improved Borda voting mechanism[^1] to alleviate this problem in order to find a more reasonable means to make a corresponding contribution in ensuring system security and widespread distribution; which ultimately leads to a better and more inclusive distribution of WPS funds.
 
@@ -25,11 +25,11 @@ Ao we can simply get the strategic relationship of the stakeholder:
 
 	Judging the relationship between W+(H-1)*F(Q) and X(Q) and determining the corresponding strategy. 
 
-Because F is a positive correlation function of Q, X is also a positive correlation function of Q, and W is a random parameter with speculation. So it can be concluded that the cheating gain will be significantly reduced with the increase of Q, under the assumption of rational natural person. Choosing to maintain justice is a dominant strategy. So from this perspective, the POS mechanism is a stable model.  
+Because F is a positive correlation function of Q, X is also a positive correlation function of Q, and W is a random parameter with speculation. So it can be concluded that the cheating gain will be significantly reduced with the increase of Q, under the assumption of rational natural person. Choosing to maintain fairness is a dominant strategy. So from this perspective, the POS mechanism is a stable model.  
 
 In fact, when we further analyze the ethical parameters, we can obtain the following relationships and conclusions between the equity structure and the stakeholders' income:
 
-A) Absolute concentration structure of Shares
+A) Absolute concentration structure of equity
 
 	If the equity is absolutely concentrated on the network operators, the supervision will be difficult, and the moral value of the network operators will decrease or even become negative.
 	Operator Responsibility(→min)=Operator Morality(→-)×{1+ Operator Asset Ownership(max)}
@@ -39,7 +39,7 @@ B) Relatively concentrated structure of equity
 
 	The relative concentration of equity can encourage operators, stabilize the backbone team, and generate checks and balances.
 	Operator Responsibility(→max)=Operator Ethics(→max)×{1+ Operator Asset Ownership(max)}
-	stakeholders' income(→max)=operator's responsibility(→max)×operator's ability×operating conditions.
+	Stakeholders' Income(→max)=Operator's Responsibility(→max)×Operator's Ability×Operating Conditions.
 
 C) Equity dispersion structure
 
@@ -50,7 +50,7 @@ C) Equity dispersion structure
 From the analysis, we can determine that (B) relative concentration of equity is the preferred equity structure (for detailed knowledge, please refer to the books and papers related to equity structure).
 
 
-Therefore, we need to avoid the concentration of large token holder consortiums under the premise of the stability of the system. So the question remains: is there an ideal voting solution?
+Therefore, we can avoid the concentration of large stakeholders taking control by adopting a method of concentration relative to staked weight, on the premise of the stability of the system. So the question remains: is there an ideal voting solution?
 
 ## Voting and election
 
@@ -167,7 +167,7 @@ Next, we will illustrate the features and advantages of the program through a fe
 ### Example One
 Suppose there are three voters A, B, and C. For the sake of discussion, let's assume that the candidates are the same three, and assume that they vote for themselves. Our voting principle is to choose two of the three to win.
 
-We assume that A, B, and C hold the number of tokens a, b, and c, respectively. If we assume conspiracy in a and b, if EOS's current voting system is adopted, c will lose the final right as long as `a+b>c`. But under the BET system, you need `a+2b>2c` to get the corresponding result. In the case where the differences among the candidates are not different, a and c can be elected.
+We assume that A, B, and C hold the number of tokens a, b, and c, respectively. If we assume conspiracy in a and b, if EOS's current voting system is adopted, C will lose the final right as long as `a+b>c`. But under the BET system, you need `a+2b>2c` to get the corresponding result. In the case where the differences among the candidates are not different, a and c can be elected.
 
 ### Example Two
 Consider another example of bribery. Let's assume that there is a large account A with 20M tokens. The support of other candidates is only between 1M and 6M. If the EOS strategy is adopted, then the other candidates cannot reach consesus. Under the premise, A can control the entire order of the elected person. Due to the strong control of A, many candidates will choose to trade with A, which will eventually lead to the further strengthening of A's control.
